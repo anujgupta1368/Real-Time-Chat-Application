@@ -20,16 +20,24 @@ server-side logic, including integration with third-party APIs for language proc
 1. Clone the repository:
 
    Open a terminal:
-   -> git clone https://github.com/anujgupta1368/Real-Time-Chat-Application.git
-   -> npm i
-   -> cd client
-   -> npm i
+   - git clone https://github.com/anujgupta1368/Real-Time-Chat-Application.git
+   - npm i
+   - cd client
+   - npm i
 
 2. Start:
    Open a terminal:
-   -> cd client
-   -> npm run dev
+   - cd client
+   - npm run dev
 
    Open new terminal:
-   -> cd server
-   -> npm run server
+   - cd server
+   - npm run server
+
+## Enviornment Variables
+
+- PORT=BACKEND_PORT_NUMBER
+- MONGODB_URI=MONGODB_CONNECTION_URL
+- JWT_SECRET=JWT_SECRET_TOKEN
+- NODE_ENV=NODE_ENVIORNMENT (Example : development)
+- CLAUDE_KEY=CLAUDE_SECRET_API_KEY
