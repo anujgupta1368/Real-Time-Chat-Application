@@ -7,7 +7,7 @@ const Chats = ({ selectedChatId, setSelectedChatId }) => {
   const [chatsData, setChatsData] = useState([]);
   const { authUser } = useAuthContext();
   const { availableUsers } = useSocketContext();
-  const [status, setStatus] = useState(authUser.status);
+  const [status, setStatus] = useState("BUSY");
 
   useEffect(() => {
     const fetchUsers = async () => {
